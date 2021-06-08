@@ -1,0 +1,34 @@
+input:focus {
+  background-color: aqua;
+}
+
+input:valid {
+  background-color: lime;
+}
+
+body{
+	margin-left: 0.25in;
+}
+
+
+footer {
+    clear: both;
+    position: relative;
+    height: 400px;
+    margin-top: -250px;
+	font-size: 20px;
+	margin-left: -5.05in;
+	
+}
+
+table.infoTable td, th { 
+  border: 2px solid black;
+  width: 100%;
+background-color: #bde9ba;
+ width:200px;
+ text-align:center;
+}
+table.infoTable td:nth-child(1) 
+{
+  background-color: orange;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!------
+Salma Mobasher
+8120214
+Due March 3,2021
+--->
+<html>
+<head lang="en">
+	<title> Feedback</title>
+
+	<link rel="stylesheet" href="mystyle.css">
+	<meta charset="utf-8">
+	<meta name="description" content="HTML5 stuff here">
+	<meta name ="keywords" content="html5 tags, html5 elements">
+	<link rel="icon" type="image/png" href="../Images/logo.png" alt />
+</head>
+	<form method="post" action="http://localhost/NetLab2/feed.php">
+<body style="background-color:salmon;"> <!--makes background salmon coloured-->
+	<h1>Feedback!</h1>
+	<form>
+
+	<div>
+    <label for="name">What is your name?</label>
+    <input type="text" id="name" name="name" pattern="[A-Za-z]+" autofocus required minlength="1" maxlength="100">
+  </div>
+  
+  <p>
+    <label for="mail">
+      <span>Please enter your conestoga email address:</span>
+      <input type="email"  pattern=".+@conestogac.on.ca" id="mail"  name="mail" required minlength="8">
+      <span class="error" "></span>
+    </label>
+  </p>
+  
+  <p>
+    <label for="postalCode">
+      <span>Please enter your Postal code (no space):</span>
+      <input type="postalCode"  pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]" id="postalCode" name="postalCode" required   >
+		
+    </label>
+  </p>
+  <p>
+    <label for="message">
+  <span>Please enter your Message:</span>
+      <input type="message"  id="message" name="message" maxlength="200" >
+		
+  </label>
+  </p>
+  <button>Send</button>
+  <button><input type="reset"></button>
+	
+	
+	
+	</form>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!--added these line breakers to putsh the menu thing down to the bottom of page-->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<footer>
+	<nav class="move">
+	Check out the other pages:<br>
+		<ul>		
+			<li><a href="./project.html">Capstone Project</a><br></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="../index.html">Index</a><br></li>
+		</ul>
+	</nav>
+		<p>&copy;Copyright 2021</p>
+</footer>
+</html>
